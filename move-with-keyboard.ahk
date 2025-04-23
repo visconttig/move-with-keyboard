@@ -60,15 +60,12 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
     
 ; Maps ALTgr to just ALT
-;#IfWinActive ahk_exe Anki.exe
 #IfWinActive
 LControl & RAlt::Alt
 
 ;#IfWinActive ahk_exe Code.exe
 F3::Send ^kz ; Enter ZEN Mode
 
-; Hold Control key pressed (toggle)
-;*F5::Send, % "{LCtrl " . (GetKeyState("LCtrl") ? "up}" : "down}")
 
 ; Remap Mayus (Lock-key) to Backspace
 CapsLock::BackSpace
@@ -79,8 +76,7 @@ CapsLock::BackSpace
 Backspace::CapsLock
 
 
-; Change directory on Hyper Terminal
-;#IfWinActive ahk_exe Hyper.exe
+; Change directory
 ; cd into projects folder
 ::cdt::cd "C:\Users\visco\OneDrive\Desktop\html-projects"
 ; cd into Home directory
@@ -88,5 +84,3 @@ Backspace::CapsLock
 
 ; Amazon.com
 ::amz::Site:Amazon.com 
-
-::cdt::cd "C:\Users\visco\OneDrive\Desktop\html-projects"
