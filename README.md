@@ -4,6 +4,8 @@
 
 Welcome to your new favorite AHK script that brings **Vim-style navigation**, **superpowered text selection**, and **lazy habits detox**—right to your fingertips. Whether you're a Vim nerd moonlighting on Windows or just want smoother keyboard mojo, this script is here to give you ninja-like control over your cursor (and more).
 
+# :warning: I'm currently using a more complete alternative script, you cand find it [here](https://github.com/visconttig/vim-navigation).
+
 ---
 
 ## 🌟 What This Script Does
